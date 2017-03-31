@@ -1,0 +1,22 @@
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+.input-group{
+margin: 20px 0px;
+}
+
+svg{
+    height: 150px;
+}
+
+/*
+Find the 1st td in each row and also find the 1st td and its child div
+and give it the ht/wt
+In this app, this would be the Google map td
+ */
+td:first-of-type, td:first-of-type > div {
+    height:200px;
+    width:250px;
+}
